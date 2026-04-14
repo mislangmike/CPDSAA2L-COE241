@@ -190,7 +190,7 @@ public static void main(String[] args) throws IOException {
 		
 				System.out.println("\n\nArray after deletion");
 				for (int i = 0; i<pos; i++)
-					System.out.printf("%-15s %6s%n", name[i], grade[i]);
+					System.out.printf("%-15s %8s   %20s %18s%n ", name[i] , grade[i] ,nameOrig[i] , gradeOrig[i]);
 				
 				input.close();
 				
